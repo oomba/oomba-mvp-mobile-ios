@@ -3,7 +3,7 @@
 //  oombamvpiphone
 //
 //  Created by Jilin Liu on 2/19/18.
-//  Copyright © 2018 Jilin Liu. All rights reserved.
+//  Copyright © 2018 Oomba. All rights reserved.
 //
 
 import UIKit

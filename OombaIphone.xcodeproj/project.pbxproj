@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		44C82E69203A67B800D05130 /* oombamvpiphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oombamvpiphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C82E69203A67B800D05130 /* OombaIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OombaIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C82E6C203A67B800D05130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44C82E6E203A67B800D05130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44C82E71203A67B800D05130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		44C82E76203A67B800D05130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C82E79203A67B800D05130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44C82E7B203A67B800D05130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44C82E80203A67B800D05130 /* oombamvpiphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oombamvpiphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C82E80203A67B800D05130 /* OombaIphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OombaIphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C82E84203A67B800D05130 /* oombamvpiphoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oombamvpiphoneTests.swift; sourceTree = "<group>"; };
 		44C82E86203A67B800D05130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44C82E8B203A67B800D05130 /* oombamvpiphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oombamvpiphoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C82E8B203A67B800D05130 /* OombaIphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OombaIphoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C82E8F203A67B800D05130 /* oombamvpiphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oombamvpiphoneUITests.swift; sourceTree = "<group>"; };
 		44C82E91203A67B800D05130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,9 +79,9 @@
 		44C82E60203A67B800D05130 = {
 			isa = PBXGroup;
 			children = (
-				44C82E6B203A67B800D05130 /* oombamvpiphone */,
-				44C82E83203A67B800D05130 /* oombamvpiphoneTests */,
-				44C82E8E203A67B800D05130 /* oombamvpiphoneUITests */,
+				44C82E6B203A67B800D05130 /* OombaIphone */,
+				44C82E83203A67B800D05130 /* OombaIphoneTests */,
+				44C82E8E203A67B800D05130 /* OombaIphoneUITests */,
 				44C82E6A203A67B800D05130 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		44C82E6A203A67B800D05130 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44C82E69203A67B800D05130 /* oombamvpiphone.app */,
-				44C82E80203A67B800D05130 /* oombamvpiphoneTests.xctest */,
-				44C82E8B203A67B800D05130 /* oombamvpiphoneUITests.xctest */,
+				44C82E69203A67B800D05130 /* OombaIphone.app */,
+				44C82E80203A67B800D05130 /* OombaIphoneTests.xctest */,
+				44C82E8B203A67B800D05130 /* OombaIphoneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		44C82E6B203A67B800D05130 /* oombamvpiphone */ = {
+		44C82E6B203A67B800D05130 /* OombaIphone */ = {
 			isa = PBXGroup;
 			children = (
 				44C82E6C203A67B800D05130 /* AppDelegate.swift */,
@@ -107,33 +107,33 @@
 				44C82E7B203A67B800D05130 /* Info.plist */,
 				44C82E73203A67B800D05130 /* oombamvpiphone.xcdatamodeld */,
 			);
-			path = oombamvpiphone;
+			path = OombaIphone;
 			sourceTree = "<group>";
 		};
-		44C82E83203A67B800D05130 /* oombamvpiphoneTests */ = {
+		44C82E83203A67B800D05130 /* OombaIphoneTests */ = {
 			isa = PBXGroup;
 			children = (
 				44C82E84203A67B800D05130 /* oombamvpiphoneTests.swift */,
 				44C82E86203A67B800D05130 /* Info.plist */,
 			);
-			path = oombamvpiphoneTests;
+			path = OombaIphoneTests;
 			sourceTree = "<group>";
 		};
-		44C82E8E203A67B800D05130 /* oombamvpiphoneUITests */ = {
+		44C82E8E203A67B800D05130 /* OombaIphoneUITests */ = {
 			isa = PBXGroup;
 			children = (
 				44C82E8F203A67B800D05130 /* oombamvpiphoneUITests.swift */,
 				44C82E91203A67B800D05130 /* Info.plist */,
 			);
-			path = oombamvpiphoneUITests;
+			path = OombaIphoneUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		44C82E68203A67B800D05130 /* oombamvpiphone */ = {
+		44C82E68203A67B800D05130 /* OombaIphone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44C82E94203A67B800D05130 /* Build configuration list for PBXNativeTarget "oombamvpiphone" */;
+			buildConfigurationList = 44C82E94203A67B800D05130 /* Build configuration list for PBXNativeTarget "OombaIphone" */;
 			buildPhases = (
 				44C82E65203A67B800D05130 /* Sources */,
 				44C82E66203A67B800D05130 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = oombamvpiphone;
+			name = OombaIphone;
 			productName = oombamvpiphone;
-			productReference = 44C82E69203A67B800D05130 /* oombamvpiphone.app */;
+			productReference = 44C82E69203A67B800D05130 /* OombaIphone.app */;
 			productType = "com.apple.product-type.application";
 		};
-		44C82E7F203A67B800D05130 /* oombamvpiphoneTests */ = {
+		44C82E7F203A67B800D05130 /* OombaIphoneTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44C82E97203A67B800D05130 /* Build configuration list for PBXNativeTarget "oombamvpiphoneTests" */;
+			buildConfigurationList = 44C82E97203A67B800D05130 /* Build configuration list for PBXNativeTarget "OombaIphoneTests" */;
 			buildPhases = (
 				44C82E7C203A67B800D05130 /* Sources */,
 				44C82E7D203A67B800D05130 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				44C82E82203A67B800D05130 /* PBXTargetDependency */,
 			);
-			name = oombamvpiphoneTests;
+			name = OombaIphoneTests;
 			productName = oombamvpiphoneTests;
-			productReference = 44C82E80203A67B800D05130 /* oombamvpiphoneTests.xctest */;
+			productReference = 44C82E80203A67B800D05130 /* OombaIphoneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		44C82E8A203A67B800D05130 /* oombamvpiphoneUITests */ = {
+		44C82E8A203A67B800D05130 /* OombaIphoneUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44C82E9A203A67B800D05130 /* Build configuration list for PBXNativeTarget "oombamvpiphoneUITests" */;
+			buildConfigurationList = 44C82E9A203A67B800D05130 /* Build configuration list for PBXNativeTarget "OombaIphoneUITests" */;
 			buildPhases = (
 				44C82E87203A67B800D05130 /* Sources */,
 				44C82E88203A67B800D05130 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				44C82E8D203A67B800D05130 /* PBXTargetDependency */,
 			);
-			name = oombamvpiphoneUITests;
+			name = OombaIphoneUITests;
 			productName = oombamvpiphoneUITests;
-			productReference = 44C82E8B203A67B800D05130 /* oombamvpiphoneUITests.xctest */;
+			productReference = 44C82E8B203A67B800D05130 /* OombaIphoneUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -192,7 +192,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = "Jilin Liu";
+				ORGANIZATIONNAME = Oomba;
 				TargetAttributes = {
 					44C82E68203A67B800D05130 = {
 						CreatedOnToolsVersion = 9.2;
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 44C82E64203A67B800D05130 /* Build configuration list for PBXProject "oombamvpiphone" */;
+			buildConfigurationList = 44C82E64203A67B800D05130 /* Build configuration list for PBXProject "OombaIphone" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44C82E68203A67B800D05130 /* oombamvpiphone */,
-				44C82E7F203A67B800D05130 /* oombamvpiphoneTests */,
-				44C82E8A203A67B800D05130 /* oombamvpiphoneUITests */,
+				44C82E68203A67B800D05130 /* OombaIphone */,
+				44C82E7F203A67B800D05130 /* OombaIphoneTests */,
+				44C82E8A203A67B800D05130 /* OombaIphoneUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		44C82E82203A67B800D05130 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 44C82E68203A67B800D05130 /* oombamvpiphone */;
+			target = 44C82E68203A67B800D05130 /* OombaIphone */;
 			targetProxy = 44C82E81203A67B800D05130 /* PBXContainerItemProxy */;
 		};
 		44C82E8D203A67B800D05130 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 44C82E68203A67B800D05130 /* oombamvpiphone */;
+			target = 44C82E68203A67B800D05130 /* OombaIphone */;
 			targetProxy = 44C82E8C203A67B800D05130 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -432,12 +432,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4927HV47NY;
-				INFOPLIST_FILE = oombamvpiphone/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OombaIphone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oomba.oombamvpiphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -447,12 +448,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4927HV47NY;
-				INFOPLIST_FILE = oombamvpiphone/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OombaIphone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oomba.oombamvpiphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -469,7 +471,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oombamvpiphone.app/oombamvpiphone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OombaIphone.app/OombaIphone";
 			};
 			name = Debug;
 		};
@@ -486,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oombamvpiphone.app/oombamvpiphone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OombaIphone.app/OombaIphone";
 			};
 			name = Release;
 		};
@@ -525,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44C82E64203A67B800D05130 /* Build configuration list for PBXProject "oombamvpiphone" */ = {
+		44C82E64203A67B800D05130 /* Build configuration list for PBXProject "OombaIphone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44C82E92203A67B800D05130 /* Debug */,
@@ -534,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44C82E94203A67B800D05130 /* Build configuration list for PBXNativeTarget "oombamvpiphone" */ = {
+		44C82E94203A67B800D05130 /* Build configuration list for PBXNativeTarget "OombaIphone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44C82E95203A67B800D05130 /* Debug */,
@@ -543,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44C82E97203A67B800D05130 /* Build configuration list for PBXNativeTarget "oombamvpiphoneTests" */ = {
+		44C82E97203A67B800D05130 /* Build configuration list for PBXNativeTarget "OombaIphoneTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44C82E98203A67B800D05130 /* Debug */,
@@ -552,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44C82E9A203A67B800D05130 /* Build configuration list for PBXNativeTarget "oombamvpiphoneUITests" */ = {
+		44C82E9A203A67B800D05130 /* Build configuration list for PBXNativeTarget "OombaIphoneUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44C82E9B203A67B800D05130 /* Debug */,
