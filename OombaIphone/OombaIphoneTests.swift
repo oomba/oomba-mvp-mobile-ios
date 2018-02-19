@@ -1,15 +1,15 @@
 //
-//  oombamvpiphoneTests.swift
-//  oombamvpiphoneTests
+//  OombaIphoneTests.swift
+//  OombaIphoneTests
 //
 //  Created by Jilin Liu on 2/19/18.
 //  Copyright © 2018 Jilin Liu. All rights reserved.
 //
 
 import XCTest
-@testable import oombamvpiphone
+@testable import OombaIphone
 
-class oombamvpiphoneTests: XCTestCase {
+class OombaIphoneTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

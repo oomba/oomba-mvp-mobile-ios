@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4437D8CE203A6FD900568CC2 /* OombaIphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E84203A67B800D05130 /* OombaIphoneTests.swift */; };
 		44C82E6D203A67B800D05130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E6C203A67B800D05130 /* AppDelegate.swift */; };
 		44C82E6F203A67B800D05130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E6E203A67B800D05130 /* ViewController.swift */; };
 		44C82E72203A67B800D05130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C82E70203A67B800D05130 /* Main.storyboard */; };
 		44C82E75203A67B800D05130 /* oombamvpiphone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E73203A67B800D05130 /* oombamvpiphone.xcdatamodeld */; };
 		44C82E77203A67B800D05130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C82E76203A67B800D05130 /* Assets.xcassets */; };
 		44C82E7A203A67B800D05130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C82E78203A67B800D05130 /* LaunchScreen.storyboard */; };
-		44C82E85203A67B800D05130 /* oombamvpiphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E84203A67B800D05130 /* oombamvpiphoneTests.swift */; };
-		44C82E90203A67B800D05130 /* oombamvpiphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E8F203A67B800D05130 /* oombamvpiphoneUITests.swift */; };
+		44C82E90203A67B800D05130 /* OombaIphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E8F203A67B800D05130 /* OombaIphoneUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +44,10 @@
 		44C82E79203A67B800D05130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44C82E7B203A67B800D05130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44C82E80203A67B800D05130 /* OombaIphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OombaIphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		44C82E84203A67B800D05130 /* oombamvpiphoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oombamvpiphoneTests.swift; sourceTree = "<group>"; };
+		44C82E84203A67B800D05130 /* OombaIphoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OombaIphoneTests.swift; path = ../OombaIphone/OombaIphoneTests.swift; sourceTree = "<group>"; };
 		44C82E86203A67B800D05130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44C82E8B203A67B800D05130 /* OombaIphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OombaIphoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		44C82E8F203A67B800D05130 /* oombamvpiphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oombamvpiphoneUITests.swift; sourceTree = "<group>"; };
+		44C82E8F203A67B800D05130 /* OombaIphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OombaIphoneUITests.swift; sourceTree = "<group>"; };
 		44C82E91203A67B800D05130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,7 +113,7 @@
 		44C82E83203A67B800D05130 /* OombaIphoneTests */ = {
 			isa = PBXGroup;
 			children = (
-				44C82E84203A67B800D05130 /* oombamvpiphoneTests.swift */,
+				44C82E84203A67B800D05130 /* OombaIphoneTests.swift */,
 				44C82E86203A67B800D05130 /* Info.plist */,
 			);
 			path = OombaIphoneTests;
@@ -122,7 +122,7 @@
 		44C82E8E203A67B800D05130 /* OombaIphoneUITests */ = {
 			isa = PBXGroup;
 			children = (
-				44C82E8F203A67B800D05130 /* oombamvpiphoneUITests.swift */,
+				44C82E8F203A67B800D05130 /* OombaIphoneUITests.swift */,
 				44C82E91203A67B800D05130 /* Info.plist */,
 			);
 			path = OombaIphoneUITests;
@@ -265,6 +265,7 @@
 				44C82E75203A67B800D05130 /* oombamvpiphone.xcdatamodeld in Sources */,
 				44C82E6F203A67B800D05130 /* ViewController.swift in Sources */,
 				44C82E6D203A67B800D05130 /* AppDelegate.swift in Sources */,
+				4437D8CE203A6FD900568CC2 /* OombaIphoneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C82E85203A67B800D05130 /* oombamvpiphoneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C82E90203A67B800D05130 /* oombamvpiphoneUITests.swift in Sources */,
+				44C82E90203A67B800D05130 /* OombaIphoneUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,7 +465,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4927HV47NY;
-				INFOPLIST_FILE = oombamvpiphoneTests/Info.plist;
+				INFOPLIST_FILE = OombaIphoneTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oomba.oombamvpiphoneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,7 +482,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4927HV47NY;
-				INFOPLIST_FILE = oombamvpiphoneTests/Info.plist;
+				INFOPLIST_FILE = OombaIphoneTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oomba.oombamvpiphoneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,13 +498,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4927HV47NY;
-				INFOPLIST_FILE = oombamvpiphoneUITests/Info.plist;
+				INFOPLIST_FILE = OomaIphoneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oomba.oombamvpiphoneUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = oombamvpiphone;
+				TEST_TARGET_NAME = OombaIphone;
 			};
 			name = Debug;
 		};
@@ -514,13 +514,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4927HV47NY;
-				INFOPLIST_FILE = oombamvpiphoneUITests/Info.plist;
+				INFOPLIST_FILE = OomaIphoneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oomba.oombamvpiphoneUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = oombamvpiphone;
+				TEST_TARGET_NAME = OombaIphone;
 			};
 			name = Release;
 		};
