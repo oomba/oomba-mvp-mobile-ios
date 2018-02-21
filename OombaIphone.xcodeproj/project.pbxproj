@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442557CD203D04B3002A8756 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442557CC203D04B3002A8756 /* LoginViewController.swift */; };
+		442557CF203D04CA002A8756 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442557CE203D04CA002A8756 /* Login.storyboard */; };
+		442557DE203D1ED1002A8756 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442557DD203D1ED1002A8756 /* Authenticator.swift */; };
 		4437D8CE203A6FD900568CC2 /* OombaIphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E84203A67B800D05130 /* OombaIphoneTests.swift */; };
 		44C82E6D203A67B800D05130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E6C203A67B800D05130 /* AppDelegate.swift */; };
-		44C82E6F203A67B800D05130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E6E203A67B800D05130 /* ViewController.swift */; };
-		44C82E72203A67B800D05130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C82E70203A67B800D05130 /* Main.storyboard */; };
 		44C82E75203A67B800D05130 /* oombamvpiphone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E73203A67B800D05130 /* oombamvpiphone.xcdatamodeld */; };
 		44C82E77203A67B800D05130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C82E76203A67B800D05130 /* Assets.xcassets */; };
 		44C82E7A203A67B800D05130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C82E78203A67B800D05130 /* LaunchScreen.storyboard */; };
@@ -35,10 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		442557CC203D04B3002A8756 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		442557CE203D04CA002A8756 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		442557DD203D1ED1002A8756 /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
 		44C82E69203A67B800D05130 /* OombaIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OombaIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C82E6C203A67B800D05130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44C82E6E203A67B800D05130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		44C82E71203A67B800D05130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44C82E74203A67B800D05130 /* oombamvpiphone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = oombamvpiphone.xcdatamodel; sourceTree = "<group>"; };
 		44C82E76203A67B800D05130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C82E79203A67B800D05130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +78,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		442557D5203D1750002A8756 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				442557DD203D1ED1002A8756 /* Authenticator.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		442557D7203D175A002A8756 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				442557CC203D04B3002A8756 /* LoginViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		442557D9203D1780002A8756 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44C82E7B203A67B800D05130 /* Info.plist */,
+				44C82E6C203A67B800D05130 /* AppDelegate.swift */,
+				44C82E76203A67B800D05130 /* Assets.xcassets */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		442557DA203D1790002A8756 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44C82E78203A67B800D05130 /* LaunchScreen.storyboard */,
+				442557CE203D04CA002A8756 /* Login.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		442557DB203D17DF002A8756 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				44C82E73203A67B800D05130 /* oombamvpiphone.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		44C82E60203A67B800D05130 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +144,11 @@
 		44C82E6B203A67B800D05130 /* OombaIphone */ = {
 			isa = PBXGroup;
 			children = (
-				44C82E6C203A67B800D05130 /* AppDelegate.swift */,
-				44C82E6E203A67B800D05130 /* ViewController.swift */,
-				44C82E70203A67B800D05130 /* Main.storyboard */,
-				44C82E76203A67B800D05130 /* Assets.xcassets */,
-				44C82E78203A67B800D05130 /* LaunchScreen.storyboard */,
-				44C82E7B203A67B800D05130 /* Info.plist */,
-				44C82E73203A67B800D05130 /* oombamvpiphone.xcdatamodeld */,
+				442557D5203D1750002A8756 /* Models */,
+				442557DA203D1790002A8756 /* Views */,
+				442557D7203D175A002A8756 /* Controllers */,
+				442557D9203D1780002A8756 /* Support Files */,
+				442557DB203D17DF002A8756 /* CoreData */,
 			);
 			path = OombaIphone;
 			sourceTree = "<group>";
@@ -235,9 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442557CF203D04CA002A8756 /* Login.storyboard in Resources */,
 				44C82E7A203A67B800D05130 /* LaunchScreen.storyboard in Resources */,
 				44C82E77203A67B800D05130 /* Assets.xcassets in Resources */,
-				44C82E72203A67B800D05130 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +305,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442557DE203D1ED1002A8756 /* Authenticator.swift in Sources */,
 				44C82E75203A67B800D05130 /* oombamvpiphone.xcdatamodeld in Sources */,
-				44C82E6F203A67B800D05130 /* ViewController.swift in Sources */,
 				44C82E6D203A67B800D05130 /* AppDelegate.swift in Sources */,
+				442557CD203D04B3002A8756 /* LoginViewController.swift in Sources */,
 				4437D8CE203A6FD900568CC2 /* OombaIphoneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +344,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		44C82E70203A67B800D05130 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44C82E71203A67B800D05130 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		44C82E78203A67B800D05130 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
