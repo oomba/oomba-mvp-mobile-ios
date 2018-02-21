@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442557CD203D04B3002A8756 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442557CC203D04B3002A8756 /* LoginViewController.swift */; };
+		442557CF203D04CA002A8756 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442557CE203D04CA002A8756 /* Login.storyboard */; };
 		4437D8CE203A6FD900568CC2 /* OombaIphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E84203A67B800D05130 /* OombaIphoneTests.swift */; };
 		44C82E6D203A67B800D05130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E6C203A67B800D05130 /* AppDelegate.swift */; };
 		44C82E6F203A67B800D05130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E6E203A67B800D05130 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		442557CC203D04B3002A8756 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		442557CE203D04CA002A8756 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		44C82E69203A67B800D05130 /* OombaIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OombaIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C82E6C203A67B800D05130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44C82E6E203A67B800D05130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				44C82E78203A67B800D05130 /* LaunchScreen.storyboard */,
 				44C82E7B203A67B800D05130 /* Info.plist */,
 				44C82E73203A67B800D05130 /* oombamvpiphone.xcdatamodeld */,
+				442557CC203D04B3002A8756 /* LoginViewController.swift */,
+				442557CE203D04CA002A8756 /* Login.storyboard */,
 			);
 			path = OombaIphone;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442557CF203D04CA002A8756 /* Login.storyboard in Resources */,
 				44C82E7A203A67B800D05130 /* LaunchScreen.storyboard in Resources */,
 				44C82E77203A67B800D05130 /* Assets.xcassets in Resources */,
 				44C82E72203A67B800D05130 /* Main.storyboard in Resources */,
@@ -265,6 +272,7 @@
 				44C82E75203A67B800D05130 /* oombamvpiphone.xcdatamodeld in Sources */,
 				44C82E6F203A67B800D05130 /* ViewController.swift in Sources */,
 				44C82E6D203A67B800D05130 /* AppDelegate.swift in Sources */,
+				442557CD203D04B3002A8756 /* LoginViewController.swift in Sources */,
 				4437D8CE203A6FD900568CC2 /* OombaIphoneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
