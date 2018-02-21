@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		442557CD203D04B3002A8756 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442557CC203D04B3002A8756 /* LoginViewController.swift */; };
 		442557CF203D04CA002A8756 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442557CE203D04CA002A8756 /* Login.storyboard */; };
+		442557DE203D1ED1002A8756 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442557DD203D1ED1002A8756 /* Authenticator.swift */; };
 		4437D8CE203A6FD900568CC2 /* OombaIphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E84203A67B800D05130 /* OombaIphoneTests.swift */; };
 		44C82E6D203A67B800D05130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E6C203A67B800D05130 /* AppDelegate.swift */; };
 		44C82E75203A67B800D05130 /* oombamvpiphone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44C82E73203A67B800D05130 /* oombamvpiphone.xcdatamodeld */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		442557CC203D04B3002A8756 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		442557CE203D04CA002A8756 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		442557DD203D1ED1002A8756 /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
 		44C82E69203A67B800D05130 /* OombaIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OombaIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C82E6C203A67B800D05130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44C82E74203A67B800D05130 /* oombamvpiphone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = oombamvpiphone.xcdatamodel; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		442557D5203D1750002A8756 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				442557DD203D1ED1002A8756 /* Authenticator.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442557DE203D1ED1002A8756 /* Authenticator.swift in Sources */,
 				44C82E75203A67B800D05130 /* oombamvpiphone.xcdatamodeld in Sources */,
 				44C82E6D203A67B800D05130 /* AppDelegate.swift in Sources */,
 				442557CD203D04B3002A8756 /* LoginViewController.swift in Sources */,
