@@ -11,17 +11,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="4K4-WK-ZXS">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aGd-cX-hPa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="yHZ-5s-1P2" sceneMemberID="viewController">
+                <viewController id="yHZ-5s-1P2" customClass="LoginViewController" customModule="OombaIphone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TXF-gd-aaR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="-10" translatesAutoresizingMaskIntoConstraints="NO" id="yQ0-OE-7pt" userLabel="Label Stack View">
-                                <rect key="frame" x="37.5" y="70" width="300" height="96"/>
+                                <rect key="frame" x="37.5" y="90" width="300" height="96"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create an Account." lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXL-sZ-GEv">
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="53"/>
@@ -38,7 +37,7 @@
                                 </subviews>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6b5-OX-IwH" userLabel="Text Field View">
-                                <rect key="frame" x="37" y="166" width="300" height="200"/>
+                                <rect key="frame" x="37" y="186" width="300" height="200"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="G3K-VH-yO2" userLabel="Text Field Stack View">
                                         <rect key="frame" x="0.0" y="30" width="300" height="140"/>
@@ -46,13 +45,13 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T85-QQ-FSz">
                                                 <rect key="frame" x="0.0" y="0.0" width="300" height="55"/>
                                                 <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" textContentType="email"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YX9-tx-qeu">
                                                 <rect key="frame" x="0.0" y="85" width="300" height="55"/>
                                                 <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" textContentType="password"/>
                                             </textField>
                                         </subviews>
@@ -104,13 +103,14 @@
                             <constraint firstItem="Ovo-Vz-U7t" firstAttribute="width" secondItem="yQ0-OE-7pt" secondAttribute="width" id="EUh-Jx-faM"/>
                             <constraint firstItem="8SU-zn-6Hf" firstAttribute="bottom" secondItem="Ovo-Vz-U7t" secondAttribute="bottom" constant="50" id="N0o-hS-4PK"/>
                             <constraint firstItem="yQ0-OE-7pt" firstAttribute="centerX" secondItem="8SU-zn-6Hf" secondAttribute="centerX" id="UdM-fT-hU0"/>
-                            <constraint firstItem="yQ0-OE-7pt" firstAttribute="top" secondItem="8SU-zn-6Hf" secondAttribute="top" constant="50" id="ZBm-6M-aIN"/>
+                            <constraint firstItem="yQ0-OE-7pt" firstAttribute="top" secondItem="8SU-zn-6Hf" secondAttribute="top" constant="70" id="ZBm-6M-aIN"/>
                             <constraint firstItem="Ovo-Vz-U7t" firstAttribute="height" secondItem="TXF-gd-aaR" secondAttribute="height" multiplier="0.15" id="etQ-hO-UCU"/>
                             <constraint firstItem="6b5-OX-IwH" firstAttribute="width" secondItem="yQ0-OE-7pt" secondAttribute="width" id="gS1-iN-JAW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8SU-zn-6Hf"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aGd-cX-hPa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="133.59999999999999" y="187.55622188905548"/>
         </scene>
