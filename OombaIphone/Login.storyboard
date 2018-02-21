@@ -75,6 +75,9 @@
                                         <state key="normal" title="Create an Account">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="createAccount:" destination="yHZ-5s-1P2" eventType="touchUpInside" id="Y9p-qv-oHM"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-JZ-iSL">
                                         <rect key="frame" x="0.0" y="55" width="300" height="45"/>
@@ -83,6 +86,9 @@
                                         <state key="normal" title="Login">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="login:" destination="yHZ-5s-1P2" eventType="touchUpInside" id="yaq-hw-zGT"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -109,6 +115,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8SU-zn-6Hf"/>
                     </view>
+                    <connections>
+                        <outlet property="createAccountButton" destination="19V-JR-HcO" id="Dwn-gk-heo"/>
+                        <outlet property="emailTextField" destination="T85-QQ-FSz" id="6L3-fb-bjP"/>
+                        <outlet property="loginButton" destination="NDk-JZ-iSL" id="Cix-vb-T1D"/>
+                        <outlet property="passwordTextField" destination="YX9-tx-qeu" id="G2Y-yG-O8z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aGd-cX-hPa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
